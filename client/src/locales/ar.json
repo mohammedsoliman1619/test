@@ -1,0 +1,231 @@
+{
+  "nav": {
+    "tasks": "المهام",
+    "calendar": "التقويم",
+    "goals": "الأهداف",
+    "reminders": "التذكيرات",
+    "analytics": "التحليلات",
+    "settings": "الإعدادات"
+  },
+  "pages": {
+    "tasks": {
+      "title": "المهام",
+      "description": "إدارة مهامك ومشاريعك"
+    },
+    "calendar": {
+      "title": "التقويم",
+      "description": "تقويم تفاعلي مع جدولة المهام وحجب الوقت"
+    },
+    "goals": {
+      "title": "الأهداف",
+      "description": "تتبع أهدافك قصيرة وطويلة المدى مع المعالم وتتبع العادات"
+    },
+    "reminders": {
+      "title": "التذكيرات",
+      "description": "إعداد الإشعارات القائمة على الوقت والتذكيرات المتكررة"
+    },
+    "analytics": {
+      "title": "التحليلات",
+      "description": "تصور أنماط الإنتاجية الخاصة بك مع الرسوم البيانية والرؤى"
+    },
+    "settings": {
+      "title": "الإعدادات",
+      "description": "تخصيص تجربة الإنتاجية الخاصة بك"
+    }
+  },
+  "user": {
+    "pro_user": "مستخدم محترف"
+  },
+  "status": {
+    "offline_ready": "جاهز للعمل بدون اتصال"
+  },
+  "theme": {
+    "toggle": "تبديل المظهر",
+    "light": "فاتح",
+    "dark": "داكن",
+    "system": "النظام"
+  },
+  "search": {
+    "placeholder": "البحث عن المهام أو المشاريع أو الأهداف..."
+  },
+  "notifications": {
+    "title": "الإشعارات"
+  },
+  "actions": {
+    "quick_add": "إضافة سريعة",
+    "add_task": "إضافة مهمة",
+    "edit": "تحرير",
+    "delete": "حذف",
+    "more": "المزيد من الخيارات"
+  },
+  "projects": {
+    "title": "المشاريع",
+    "add": "إضافة مشروع",
+    "menu": "قائمة المشروع",
+    "unknown": "مشروع غير معروف"
+  },
+  "views": {
+    "today": "اليوم",
+    "upcoming": "القادمة",
+    "overdue": "المتأخرة"
+  },
+  "priority": {
+    "high": "أولوية عالية",
+    "normal": "أولوية عادية",
+    "low": "أولوية منخفضة"
+  },
+  "tasks": {
+    "count": "{{count}} مهام",
+    "completed": "مكتملة",
+    "completed_today": "اكتملت اليوم",
+    "completed_today_count": "{{count}} اكتملت اليوم",
+    "completed_at": "اكتملت {{time}}",
+    "add_placeholder": "إضافة مهمة... (اضغط Enter للحفظ، Tab للخيارات)",
+    "quick_options": "الخيارات السريعة",
+    "full_editor": "المحرر الكامل",
+    "due_date": "تاريخ الاستحقاق",
+    "priority": "الأولوية",
+    "tags": "العلامات",
+    "filters": "المرشحات",
+    "sort": "ترتيب",
+    "delete_confirm": "هل أنت متأكد من أنك تريد حذف هذه المهمة؟",
+    "empty": {
+      "title": "لا توجد مهام بعد",
+      "description": "أنشئ مهمتك الأولى للبدء."
+    },
+    "all_done": "جميع المهام مكتملة!",
+    "add_new": "أضف مهمة جديدة للبدء."
+  },
+  "tags": {
+    "title": "العلامات",
+    "manage": "إدارة العلامات"
+  },
+  "date": {
+    "today": "اليوم",
+    "tomorrow": "غداً"
+  },
+  "recurrence": {
+    "none": "لا يوجد",
+    "daily": "يومياً",
+    "weekly": "أسبوعياً",
+    "monthly": "شهرياً",
+    "yearly": "سنوياً"
+  },
+  "common": {
+    "loading": "جاري التحميل...",
+    "coming_soon": "قريباً..."
+  },
+  "settings": {
+    "tabs": {
+      "general": "عام",
+      "appearance": "المظهر",
+      "notifications": "الإشعارات",
+      "accessibility": "إمكانية الوصول",
+      "security": "الأمان",
+      "data": "البيانات"
+    },
+    "language": {
+      "title": "اللغة والمنطقة",
+      "description": "اختر لغتك المفضلة والإعدادات الإقليمية",
+      "select": "اللغة"
+    },
+    "date_format": {
+      "title": "تنسيق التاريخ"
+    },
+    "time_format": {
+      "title": "تنسيق الوقت"
+    },
+    "start_page": {
+      "title": "صفحة البداية الافتراضية"
+    },
+    "working_hours": {
+      "title": "ساعات العمل",
+      "description": "حدد ساعات عملك النموذجية لجدولة أفضل",
+      "start": "وقت البداية",
+      "end": "وقت الانتهاء"
+    },
+    "theme": {
+      "title": "المظهر",
+      "description": "اختر نظام الألوان المفضل لديك"
+    },
+    "notifications": {
+      "title": "الإشعارات",
+      "description": "تحكم في كيفية ووقت تلقي الإشعارات",
+      "enable": "تمكين الإشعارات",
+      "enable_description": "تلقي إشعارات للتذكيرات والمهام",
+      "sounds": "التأثيرات الصوتية",
+      "sounds_description": "تشغيل الأصوات للإشعارات والإجراءات"
+    },
+    "accessibility": {
+      "title": "إمكانية الوصول",
+      "description": "تخصيص الواجهة لإمكانية وصول أفضل",
+      "reduced_motion": "حركة مخفضة",
+      "reduced_motion_description": "تقليل الرسوم المتحركة والانتقالات",
+      "font_size": "حجم الخط",
+      "font_size_small": "صغير",
+      "font_size_medium": "متوسط",
+      "font_size_large": "كبير",
+      "high_contrast": "تباين عالي",
+      "high_contrast_description": "زيادة التباين لرؤية أفضل"
+    },
+    "security": {
+      "title": "الأمان",
+      "description": "احمِ بياناتك بتدابير أمنية إضافية",
+      "pin_lock": "قفل برقم PIN",
+      "pin_lock_description": "تطلب رقم PIN للوصول إلى التطبيق",
+      "pin": "رقم PIN",
+      "pin_placeholder": "أدخل رقم PIN الخاص بك"
+    },
+    "data": {
+      "title": "إدارة البيانات",
+      "description": "النسخ الاحتياطي والاستعادة وإدارة بياناتك",
+      "auto_backup": "النسخ الاحتياطي التلقائي",
+      "auto_backup_description": "نسخ بياناتك احتياطياً تلقائياً",
+      "backup_frequency": "تكرار النسخ الاحتياطي",
+      "frequency_daily": "يومياً",
+      "frequency_weekly": "أسبوعياً",
+      "frequency_monthly": "شهرياً",
+      "export_title": "تصدير البيانات",
+      "export_description": "تحميل جميع بياناتك كملف JSON",
+      "export_button": "تصدير",
+      "import_title": "استيراد البيانات",
+      "import_description": "استيراد البيانات من ملف نسخة احتياطية JSON",
+      "import_button": "استيراد",
+      "select_file": "اختيار ملف",
+      "clear_title": "مسح جميع البيانات",
+      "clear_description": "حذف جميع بياناتك نهائياً. لا يمكن التراجع عن هذا الإجراء.",
+      "clear_button": "مسح الكل",
+      "clear_confirm": "هل أنت متأكد من أنك تريد مسح جميع البيانات؟ لا يمكن التراجع عن هذا الإجراء."
+    },
+    "export": {
+      "success": {
+        "title": "تم التصدير بنجاح",
+        "description": "تم تصدير بياناتك بنجاح."
+      },
+      "error": {
+        "title": "فشل التصدير",
+        "description": "فشل في تصدير البيانات. يرجى المحاولة مرة أخرى."
+      }
+    },
+    "import": {
+      "success": {
+        "title": "تم الاستيراد بنجاح",
+        "description": "تم استيراد بياناتك بنجاح."
+      },
+      "error": {
+        "title": "فشل الاستيراد",
+        "description": "فشل في استيراد البيانات. يرجى التحقق من الملف والمحاولة مرة أخرى."
+      }
+    },
+    "clear": {
+      "success": {
+        "title": "تم مسح البيانات",
+        "description": "تم مسح جميع البيانات بنجاح."
+      },
+      "error": {
+        "title": "فشل المسح",
+        "description": "فشل في مسح البيانات. يرجى المحاولة مرة أخرى."
+      }
+    }
+  }
+}

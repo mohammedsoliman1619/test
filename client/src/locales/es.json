@@ -1,0 +1,231 @@
+{
+  "nav": {
+    "tasks": "Tareas",
+    "calendar": "Calendario",
+    "goals": "Objetivos",
+    "reminders": "Recordatorios",
+    "analytics": "Analíticas",
+    "settings": "Configuración"
+  },
+  "pages": {
+    "tasks": {
+      "title": "Tareas",
+      "description": "Gestiona tus tareas y proyectos"
+    },
+    "calendar": {
+      "title": "Calendario",
+      "description": "Calendario interactivo con programación de tareas y bloqueo de tiempo"
+    },
+    "goals": {
+      "title": "Objetivos",
+      "description": "Rastrea tus objetivos a corto y largo plazo con hitos y seguimiento de hábitos"
+    },
+    "reminders": {
+      "title": "Recordatorios",
+      "description": "Configura notificaciones basadas en tiempo y recordatorios recurrentes"
+    },
+    "analytics": {
+      "title": "Analíticas",
+      "description": "Visualiza tus patrones de productividad con gráficos e insights"
+    },
+    "settings": {
+      "title": "Configuración",
+      "description": "Personaliza tu experiencia de productividad"
+    }
+  },
+  "user": {
+    "pro_user": "Usuario Pro"
+  },
+  "status": {
+    "offline_ready": "Listo Sin Conexión"
+  },
+  "theme": {
+    "toggle": "Cambiar tema",
+    "light": "Claro",
+    "dark": "Oscuro",
+    "system": "Sistema"
+  },
+  "search": {
+    "placeholder": "Buscar tareas, proyectos u objetivos..."
+  },
+  "notifications": {
+    "title": "Notificaciones"
+  },
+  "actions": {
+    "quick_add": "Agregar Rápido",
+    "add_task": "Agregar Tarea",
+    "edit": "Editar",
+    "delete": "Eliminar",
+    "more": "Más opciones"
+  },
+  "projects": {
+    "title": "Proyectos",
+    "add": "Agregar proyecto",
+    "menu": "Menú del proyecto",
+    "unknown": "Proyecto Desconocido"
+  },
+  "views": {
+    "today": "Hoy",
+    "upcoming": "Próximas",
+    "overdue": "Atrasadas"
+  },
+  "priority": {
+    "high": "Alta Prioridad",
+    "normal": "Prioridad Normal",
+    "low": "Baja Prioridad"
+  },
+  "tasks": {
+    "count": "{{count}} tareas",
+    "completed": "Completadas",
+    "completed_today": "completadas hoy",
+    "completed_today_count": "{{count}} completadas hoy",
+    "completed_at": "Completada {{time}}",
+    "add_placeholder": "Agregar una tarea... (Enter para guardar, Tab para opciones)",
+    "quick_options": "Opciones Rápidas",
+    "full_editor": "Editor Completo",
+    "due_date": "Fecha de Vencimiento",
+    "priority": "Prioridad",
+    "tags": "Etiquetas",
+    "filters": "Filtros",
+    "sort": "Ordenar",
+    "delete_confirm": "¿Estás seguro de que quieres eliminar esta tarea?",
+    "empty": {
+      "title": "Aún no hay tareas",
+      "description": "Crea tu primera tarea para comenzar."
+    },
+    "all_done": "¡Todas las tareas completadas!",
+    "add_new": "Agrega una nueva tarea para comenzar."
+  },
+  "tags": {
+    "title": "Etiquetas",
+    "manage": "Gestionar etiquetas"
+  },
+  "date": {
+    "today": "Hoy",
+    "tomorrow": "Mañana"
+  },
+  "recurrence": {
+    "none": "Ninguna",
+    "daily": "Diaria",
+    "weekly": "Semanal",
+    "monthly": "Mensual",
+    "yearly": "Anual"
+  },
+  "common": {
+    "loading": "Cargando...",
+    "coming_soon": "Próximamente..."
+  },
+  "settings": {
+    "tabs": {
+      "general": "General",
+      "appearance": "Apariencia",
+      "notifications": "Notificaciones",
+      "accessibility": "Accesibilidad",
+      "security": "Seguridad",
+      "data": "Datos"
+    },
+    "language": {
+      "title": "Idioma y Región",
+      "description": "Elige tu idioma preferido y configuración regional",
+      "select": "Idioma"
+    },
+    "date_format": {
+      "title": "Formato de Fecha"
+    },
+    "time_format": {
+      "title": "Formato de Hora"
+    },
+    "start_page": {
+      "title": "Página de Inicio Predeterminada"
+    },
+    "working_hours": {
+      "title": "Horas de Trabajo",
+      "description": "Configura tus horas de trabajo típicas para una mejor programación",
+      "start": "Hora de Inicio",
+      "end": "Hora de Fin"
+    },
+    "theme": {
+      "title": "Tema",
+      "description": "Elige tu esquema de color preferido"
+    },
+    "notifications": {
+      "title": "Notificaciones",
+      "description": "Controla cómo y cuándo recibes notificaciones",
+      "enable": "Habilitar Notificaciones",
+      "enable_description": "Recibir notificaciones para recordatorios y tareas",
+      "sounds": "Efectos de Sonido",
+      "sounds_description": "Reproducir sonidos para notificaciones y acciones"
+    },
+    "accessibility": {
+      "title": "Accesibilidad",
+      "description": "Personaliza la interfaz para mejor accesibilidad",
+      "reduced_motion": "Movimiento Reducido",
+      "reduced_motion_description": "Minimizar animaciones y transiciones",
+      "font_size": "Tamaño de Fuente",
+      "font_size_small": "Pequeño",
+      "font_size_medium": "Mediano",
+      "font_size_large": "Grande",
+      "high_contrast": "Alto Contraste",
+      "high_contrast_description": "Aumentar contraste para mejor visibilidad"
+    },
+    "security": {
+      "title": "Seguridad",
+      "description": "Protege tus datos con medidas de seguridad adicionales",
+      "pin_lock": "Bloqueo con PIN",
+      "pin_lock_description": "Requiere un PIN para acceder a la aplicación",
+      "pin": "PIN",
+      "pin_placeholder": "Ingresa tu PIN"
+    },
+    "data": {
+      "title": "Gestión de Datos",
+      "description": "Respalda, restaura y gestiona tus datos",
+      "auto_backup": "Respaldo Automático",
+      "auto_backup_description": "Respaldar automáticamente tus datos",
+      "backup_frequency": "Frecuencia de Respaldo",
+      "frequency_daily": "Diario",
+      "frequency_weekly": "Semanal",
+      "frequency_monthly": "Mensual",
+      "export_title": "Exportar Datos",
+      "export_description": "Descargar todos tus datos como archivo JSON",
+      "export_button": "Exportar",
+      "import_title": "Importar Datos",
+      "import_description": "Importar datos desde un archivo de respaldo JSON",
+      "import_button": "Importar",
+      "select_file": "Seleccionar Archivo",
+      "clear_title": "Borrar Todos los Datos",
+      "clear_description": "Eliminar permanentemente todos tus datos. Esta acción no se puede deshacer.",
+      "clear_button": "Borrar Todo",
+      "clear_confirm": "¿Estás seguro de que quieres borrar todos los datos? Esta acción no se puede deshacer."
+    },
+    "export": {
+      "success": {
+        "title": "Exportación exitosa",
+        "description": "Tus datos han sido exportados exitosamente."
+      },
+      "error": {
+        "title": "Exportación fallida",
+        "description": "Falló la exportación de datos. Por favor intenta de nuevo."
+      }
+    },
+    "import": {
+      "success": {
+        "title": "Importación exitosa",
+        "description": "Tus datos han sido importados exitosamente."
+      },
+      "error": {
+        "title": "Importación fallida",
+        "description": "Falló la importación de datos. Por favor verifica el archivo e intenta de nuevo."
+      }
+    },
+    "clear": {
+      "success": {
+        "title": "Datos borrados",
+        "description": "Todos los datos han sido borrados exitosamente."
+      },
+      "error": {
+        "title": "Borrado fallido",
+        "description": "Falló el borrado de datos. Por favor intenta de nuevo."
+      }
+    }
+  }
+}

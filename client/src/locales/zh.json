@@ -1,0 +1,231 @@
+{
+  "nav": {
+    "tasks": "任务",
+    "calendar": "日历",
+    "goals": "目标",
+    "reminders": "提醒",
+    "analytics": "分析",
+    "settings": "设置"
+  },
+  "pages": {
+    "tasks": {
+      "title": "任务",
+      "description": "管理您的任务和项目"
+    },
+    "calendar": {
+      "title": "日历",
+      "description": "带有任务调度和时间块功能的交互式日历"
+    },
+    "goals": {
+      "title": "目标",
+      "description": "通过里程碑和习惯跟踪来追踪您的短期和长期目标"
+    },
+    "reminders": {
+      "title": "提醒",
+      "description": "设置基于时间的通知和重复提醒"
+    },
+    "analytics": {
+      "title": "分析",
+      "description": "通过图表和见解可视化您的生产力模式"
+    },
+    "settings": {
+      "title": "设置",
+      "description": "定制您的生产力体验"
+    }
+  },
+  "user": {
+    "pro_user": "专业版用户"
+  },
+  "status": {
+    "offline_ready": "离线就绪"
+  },
+  "theme": {
+    "toggle": "切换主题",
+    "light": "浅色",
+    "dark": "深色",
+    "system": "系统"
+  },
+  "search": {
+    "placeholder": "搜索任务、项目或目标..."
+  },
+  "notifications": {
+    "title": "通知"
+  },
+  "actions": {
+    "quick_add": "快速添加",
+    "add_task": "添加任务",
+    "edit": "编辑",
+    "delete": "删除",
+    "more": "更多选项"
+  },
+  "projects": {
+    "title": "项目",
+    "add": "添加项目",
+    "menu": "项目菜单",
+    "unknown": "未知项目"
+  },
+  "views": {
+    "today": "今天",
+    "upcoming": "即将到来",
+    "overdue": "已过期"
+  },
+  "priority": {
+    "high": "高优先级",
+    "normal": "普通优先级",
+    "low": "低优先级"
+  },
+  "tasks": {
+    "count": "{{count}} 个任务",
+    "completed": "已完成",
+    "completed_today": "今天完成",
+    "completed_today_count": "今天完成了 {{count}} 个",
+    "completed_at": "{{time}}完成",
+    "add_placeholder": "添加任务...(按Enter保存，Tab查看选项)",
+    "quick_options": "快速选项",
+    "full_editor": "完整编辑器",
+    "due_date": "截止日期",
+    "priority": "优先级",
+    "tags": "标签",
+    "filters": "过滤器",
+    "sort": "排序",
+    "delete_confirm": "您确定要删除此任务吗？",
+    "empty": {
+      "title": "还没有任务",
+      "description": "创建您的第一个任务开始使用。"
+    },
+    "all_done": "所有任务都已完成！",
+    "add_new": "添加新任务开始使用。"
+  },
+  "tags": {
+    "title": "标签",
+    "manage": "管理标签"
+  },
+  "date": {
+    "today": "今天",
+    "tomorrow": "明天"
+  },
+  "recurrence": {
+    "none": "无",
+    "daily": "每日",
+    "weekly": "每周",
+    "monthly": "每月",
+    "yearly": "每年"
+  },
+  "common": {
+    "loading": "加载中...",
+    "coming_soon": "即将推出..."
+  },
+  "settings": {
+    "tabs": {
+      "general": "常规",
+      "appearance": "外观",
+      "notifications": "通知",
+      "accessibility": "辅助功能",
+      "security": "安全",
+      "data": "数据"
+    },
+    "language": {
+      "title": "语言和地区",
+      "description": "选择您的首选语言和地区设置",
+      "select": "语言"
+    },
+    "date_format": {
+      "title": "日期格式"
+    },
+    "time_format": {
+      "title": "时间格式"
+    },
+    "start_page": {
+      "title": "默认起始页"
+    },
+    "working_hours": {
+      "title": "工作时间",
+      "description": "设置您的典型工作时间以便更好地安排日程",
+      "start": "开始时间",
+      "end": "结束时间"
+    },
+    "theme": {
+      "title": "主题",
+      "description": "选择您的首选配色方案"
+    },
+    "notifications": {
+      "title": "通知",
+      "description": "控制您如何以及何时接收通知",
+      "enable": "启用通知",
+      "enable_description": "接收提醒和任务的通知",
+      "sounds": "声音效果",
+      "sounds_description": "为通知和操作播放声音"
+    },
+    "accessibility": {
+      "title": "辅助功能",
+      "description": "定制界面以获得更好的辅助功能",
+      "reduced_motion": "减少动画",
+      "reduced_motion_description": "最小化动画和过渡",
+      "font_size": "字体大小",
+      "font_size_small": "小",
+      "font_size_medium": "中",
+      "font_size_large": "大",
+      "high_contrast": "高对比度",
+      "high_contrast_description": "增加对比度以获得更好的可见性"
+    },
+    "security": {
+      "title": "安全",
+      "description": "通过额外的安全措施保护您的数据",
+      "pin_lock": "PIN锁定",
+      "pin_lock_description": "需要PIN才能访问应用程序",
+      "pin": "PIN",
+      "pin_placeholder": "输入您的PIN"
+    },
+    "data": {
+      "title": "数据管理",
+      "description": "备份、恢复和管理您的数据",
+      "auto_backup": "自动备份",
+      "auto_backup_description": "自动备份您的数据",
+      "backup_frequency": "备份频率",
+      "frequency_daily": "每日",
+      "frequency_weekly": "每周",
+      "frequency_monthly": "每月",
+      "export_title": "导出数据",
+      "export_description": "将所有数据下载为JSON文件",
+      "export_button": "导出",
+      "import_title": "导入数据",
+      "import_description": "从JSON备份文件导入数据",
+      "import_button": "导入",
+      "select_file": "选择文件",
+      "clear_title": "清除所有数据",
+      "clear_description": "永久删除所有数据。此操作无法撤消。",
+      "clear_button": "清除所有",
+      "clear_confirm": "您确定要清除所有数据吗？此操作无法撤消。"
+    },
+    "export": {
+      "success": {
+        "title": "导出成功",
+        "description": "您的数据已成功导出。"
+      },
+      "error": {
+        "title": "导出失败",
+        "description": "导出数据失败。请重试。"
+      }
+    },
+    "import": {
+      "success": {
+        "title": "导入成功",
+        "description": "您的数据已成功导入。"
+      },
+      "error": {
+        "title": "导入失败",
+        "description": "导入数据失败。请检查文件并重试。"
+      }
+    },
+    "clear": {
+      "success": {
+        "title": "数据已清除",
+        "description": "所有数据已成功清除。"
+      },
+      "error": {
+        "title": "清除失败",
+        "description": "清除数据失败。请重试。"
+      }
+    }
+  }
+}

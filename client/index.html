@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1" />
+    <meta name="theme-color" content="#4F46E5" />
+    <meta name="color-scheme" content="light dark" />
+    
+    <!-- Primary Meta Tags -->
+    <title>ProductivityPro - Personal Productivity Platform</title>
+    <meta name="title" content="ProductivityPro - Personal Productivity Platform" />
+    <meta name="description" content="A comprehensive offline-first productivity platform for managing tasks, goals, reminders, and analytics. Works 100% offline with modern PWA capabilities." />
+    <meta name="keywords" content="productivity, tasks, goals, reminders, analytics, offline, PWA, task management, time tracking" />
+    <meta name="author" content="ProductivityPro" />
+    <meta name="robots" content="index, follow" />
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="/" />
+    <meta property="og:title" content="ProductivityPro - Personal Productivity Platform" />
+    <meta property="og:description" content="A comprehensive offline-first productivity platform for managing tasks, goals, reminders, and analytics. Works 100% offline with modern PWA capabilities." />
+    <meta property="og:image" content="/og-image.png" />
+    
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image" />
+    <meta property="twitter:url" content="/" />
+    <meta property="twitter:title" content="ProductivityPro - Personal Productivity Platform" />
+    <meta property="twitter:description" content="A comprehensive offline-first productivity platform for managing tasks, goals, reminders, and analytics. Works 100% offline with modern PWA capabilities." />
+    <meta property="twitter:image" content="/twitter-image.png" />
+    
+    <!-- PWA Meta Tags -->
+    <meta name="application-name" content="ProductivityPro" />
+    <meta name="mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="default" />
+    <meta name="apple-mobile-web-app-title" content="ProductivityPro" />
+    <meta name="format-detection" content="telephone=no" />
+    <meta name="msapplication-TileColor" content="#4F46E5" />
+    <meta name="msapplication-config" content="/browserconfig.xml" />
+    
+    <!-- Favicon and Icons -->
+    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNDgiIGhlaWdodD0iNDgiIHZpZXdCb3g9IjAgMCA0OCA0OCIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHJlY3Qgd2lkdGg9IjQ4IiBoZWlnaHQ9IjQ4IiByeD0iMTIiIGZpbGw9InVybCgjZ3JhZGllbnQwXzFfMikiLz4KPHN2ZyB4PSIxMiIgeT0iMTIiIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCIgdmlld0JveD0iMCAwIDI0IDI0IiBmaWxsPSJub25lIiBzdHJva2U9IndoaXRlIiBzdHJva2Utd2lkdGg9IjIiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIgc3Ryb2tlLWxpbmVqb2luPSJyb3VuZCI+CjxwYXRoIGQ9Ik0xMyAyIDMgMTRoOWw0IDE0eiIvPgo8L3N2Zz4KPGRlZnM+CjxsaW5lYXJHcmFkaWVudCBpZD0iZ3JhZGllbnQwXzFfMiIgeDE9IjAiIHkxPSIwIiB4Mj0iNDgiIHkyPSI0OCIgZ3JhZGllbnRVbml0cz0idXNlclNwYWNlT25Vc2UiPgo8c3RvcCBzdG9wLWNvbG9yPSIjNkM2M0ZGIi8+CjxzdG9wIG9mZnNldD0iMSIgc3RvcC1jb2xvcj0iIzhCNUNGNiIvPgo8L2xpbmVhckdyYWRpZW50Pgo8L2RlZnM+Cjwvc3ZnPgo=" />
+    <link rel="apple-touch-icon" href="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTkyIiBoZWlnaHQ9IjE5MiIgdmlld0JveD0iMCAwIDE5MiAxOTIiIGZpbGw9Im5vbmUiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CjxyZWN0IHdpZHRoPSIxOTIiIGhlaWdodD0iMTkyIiByeD0iNDgiIGZpbGw9InVybCgjZ3JhZGllbnQwXzFfMikiLz4KPHN2ZyB4PSI0OCIgeT0iNDgiIHdpZHRoPSI5NiIgaGVpZ2h0PSI5NiIgdmlld0JveD0iMCAwIDI0IDI0IiBmaWxsPSJub25lIiBzdHJva2U9IndoaXRlIiBzdHJva2Utd2lkdGg9IjIiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIgc3Ryb2tlLWxpbmVqb2luPSJyb3VuZCI+CjxwYXRoIGQ9Ik0xMyAyIDMgMTRoOWw0IDE0eiIvPgo8L3N2Zz4KPGRlZnM+CjxsaW5lYXJHcmFkaWVudCBpZD0iZ3JhZGllbnQwXzFfMiIgeDE9IjAiIHkxPSIwIiB4Mj0iMTkyIiB5Mj0iMTkyIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSI+CjxzdG9wIHN0b3AtY29sb3I9IiM2QzYzRkYiLz4KPHN0b3Agb2Zmc2V0PSIxIiBzdG9wLWNvbG9yPSIjOEI1Q0Y2Ii8+CjwvbGluZWFyR3JhZGllbnQ+CjwvZGVmcz4KPC9zdmc+Cg==" />
+    
+    <!-- PWA Manifest -->
+    <link rel="manifest" href="/manifest.json" />
+    
+    <!-- Preload critical resources -->
+    <link rel="preload" href="/src/main.tsx" as="script" />
+    <link rel="preload" href="/src/index.css" as="style" />
+    
+    <!-- DNS Prefetch for external resources -->
+    <link rel="dns-prefetch" href="//fonts.googleapis.com" />
+    <link rel="dns-prefetch" href="//fonts.gstatic.com" />
+    
+    <!-- Structured Data -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "WebApplication",
+      "name": "ProductivityPro",
+      "description": "A comprehensive offline-first productivity platform for managing tasks, goals, reminders, and analytics",
+      "url": "/",
+      "applicationCategory": "ProductivityApplication",
+      "operatingSystem": "Web",
+      "offers": {
+        "@type": "Offer",
+        "price": "0",
+        "priceCurrency": "USD"
+      },
+      "featureList": [
+        "Task Management",
+        "Goal Tracking", 
+        "Reminder System",
+        "Analytics Dashboard",
+        "Offline Support",
+        "Multi-language Support",
+        "Dark/Light Themes"
+      ]
+    }
+    </script>
+    
+    <!-- Security Headers -->
+    <meta http-equiv="X-Content-Type-Options" content="nosniff" />
+    <meta http-equiv="X-Frame-Options" content="DENY" />
+    <meta http-equiv="X-XSS-Protection" content="1; mode=block" />
+    <meta http-equiv="Referrer-Policy" content="strict-origin-when-cross-origin" />
+    
+    <!-- Performance Hints -->
+    <meta http-equiv="Accept-CH" content="DPR, Viewport-Width, Width" />
+    
+    <!-- Accessibility -->
+    <meta name="accessibility" content="ARIA" />
+    
+    <!-- Cache Control -->
+    <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
+    <meta http-equiv="Pragma" content="no-cache" />
+    <meta http-equiv="Expires" content="0" />
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+    
+    <!-- Service Worker Registration -->
+    <script>
+      // Register service worker for PWA functionality
+      if ('serviceWorker' in navigator) {
+        window.addEventListener('load', () => {
+          navigator.serviceWorker.register('/sw.js')
+            .then((registration) => {
+              console.log('SW registered: ', registration);
+              
+              // Check for updates
+              registration.addEventListener('updatefound', () => {
+                const newWorker = registration.installing;
+                if (newWorker) {
+                  newWorker.addEventListener('statechange', () => {
+                    if (newWorker.state === 'installed' && navigator.serviceWorker.controller) {
+                      // New version available
+                      if (confirm('A new version is available. Reload to update?')) {
+                        newWorker.postMessage({ type: 'SKIP_WAITING' });
+                        window.location.reload();
+                      }
+                    }
+                  });
+                }
+              });
+            })
+            .catch((registrationError) => {
+              console.log('SW registration failed: ', registrationError);
+            });
+        });
+        
+        // Listen for SW messages
+        navigator.serviceWorker.addEventListener('message', (event) => {
+          const { type, data } = event.data;
+          
+          switch (type) {
+            case 'SYNC_COMPLETE':
+              console.log('Background sync completed');
+              break;
+            case 'UPDATE_ANALYTICS':
+              // Trigger analytics update in app
+              window.dispatchEvent(new CustomEvent('sw-analytics-update'));
+              break;
+            case 'NOTIFICATION_ACTION':
+              // Handle notification actions
+              window.dispatchEvent(new CustomEvent('sw-notification-action', { detail: data }));
+              break;
+          }
+        });
+      }
+      
+      // Handle install prompt
+      let deferredPrompt;
+      window.addEventListener('beforeinstallprompt', (e) => {
+        e.preventDefault();
+        deferredPrompt = e;
+        // Show install button/banner in app
+        window.dispatchEvent(new CustomEvent('show-install-prompt'));
+      });
+      
+      // Handle app install
+      window.addEventListener('appinstalled', () => {
+        console.log('PWA was installed');
+        deferredPrompt = null;
+        // Track install event
+        window.dispatchEvent(new CustomEvent('app-installed'));
+      });
+      
+      // Handle online/offline status
+      window.addEventListener('online', () => {
+        window.dispatchEvent(new CustomEvent('connectivity-change', { detail: { online: true } }));
+      });
+      
+      window.addEventListener('offline', () => {
+        window.dispatchEvent(new CustomEvent('connectivity-change', { detail: { online: false } }));
+      });
+      
+      // Handle share target
+      if (window.location.search.includes('share-target')) {
+        window.addEventListener('load', () => {
+          // Check for shared content
+          caches.open('shared-content').then(cache => {
+            cache.match('/shared-content').then(response => {
+              if (response) {
+                response.json().then(data => {
+                  window.dispatchEvent(new CustomEvent('shared-content', { detail: data }));
+                  cache.delete('/shared-content');
+                });
+              }
+            });
+          });
+        });
+      }
+      
+      // Critical CSS loading
+      const criticalCSS = document.createElement('style');
+      criticalCSS.textContent = `
+        /* Critical CSS for initial render */
+        body { 
+          margin: 0; 
+          font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+          background-color: #f9fafb;
+          color: #111827;
+        }
+        
+        #root { 
+          height: 100vh; 
+          overflow: hidden; 
+        }
+        
+        .loading {
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          height: 100vh;
+          background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+        }
+        
+        .loading-spinner {
+          width: 48px;
+          height: 48px;
+          border: 4px solid rgba(255, 255, 255, 0.3);
+          border-top: 4px solid white;
+          border-radius: 50%;
+          animation: spin 1s linear infinite;
+        }
+        
+        @keyframes spin {
+          0% { transform: rotate(0deg); }
+          100% { transform: rotate(360deg); }
+        }
+        
+        @media (prefers-color-scheme: dark) {
+          body {
+            background-color: #111827;
+            color: #f9fafb;
+          }
+        }
+      `;
+      document.head.appendChild(criticalCSS);
+      
+      // Show loading spinner
+      document.getElementById('root').innerHTML = `
+        <div class="loading">
+          <div class="loading-spinner"></div>
+        </div>
+      `;
+    </script>
+    
+    <!-- This is a replit script which adds a banner on the top of the page when opened in development mode outside the replit environment -->
+    <script type="text/javascript" src="https://replit.com/public/js/replit-dev-banner.js"></script>
+  </body>
+</html>

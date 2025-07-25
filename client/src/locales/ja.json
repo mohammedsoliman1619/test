@@ -1,0 +1,231 @@
+{
+  "nav": {
+    "tasks": "タスク",
+    "calendar": "カレンダー",
+    "goals": "目標",
+    "reminders": "リマインダー",
+    "analytics": "分析",
+    "settings": "設定"
+  },
+  "pages": {
+    "tasks": {
+      "title": "タスク",
+      "description": "タスクとプロジェクトを管理する"
+    },
+    "calendar": {
+      "title": "カレンダー",
+      "description": "タスクスケジューリングとタイムブロッキング機能を備えたインタラクティブカレンダー"
+    },
+    "goals": {
+      "title": "目標",
+      "description": "マイルストーンと習慣トラッキングで短期・長期目標を追跡"
+    },
+    "reminders": {
+      "title": "リマインダー",
+      "description": "時間ベースの通知と繰り返しリマインダーを設定"
+    },
+    "analytics": {
+      "title": "分析",
+      "description": "チャートとインサイトで生産性パターンを視覚化"
+    },
+    "settings": {
+      "title": "設定",
+      "description": "生産性体験をカスタマイズ"
+    }
+  },
+  "user": {
+    "pro_user": "プロユーザー"
+  },
+  "status": {
+    "offline_ready": "オフライン対応"
+  },
+  "theme": {
+    "toggle": "テーマ切り替え",
+    "light": "ライト",
+    "dark": "ダーク",
+    "system": "システム"
+  },
+  "search": {
+    "placeholder": "タスク、プロジェクト、目標を検索..."
+  },
+  "notifications": {
+    "title": "通知"
+  },
+  "actions": {
+    "quick_add": "クイック追加",
+    "add_task": "タスク追加",
+    "edit": "編集",
+    "delete": "削除",
+    "more": "その他のオプション"
+  },
+  "projects": {
+    "title": "プロジェクト",
+    "add": "プロジェクト追加",
+    "menu": "プロジェクトメニュー",
+    "unknown": "不明なプロジェクト"
+  },
+  "views": {
+    "today": "今日",
+    "upcoming": "予定",
+    "overdue": "期限切れ"
+  },
+  "priority": {
+    "high": "高優先度",
+    "normal": "標準優先度",
+    "low": "低優先度"
+  },
+  "tasks": {
+    "count": "{{count}}個のタスク",
+    "completed": "完了",
+    "completed_today": "今日完了",
+    "completed_today_count": "今日{{count}}個完了",
+    "completed_at": "{{time}}に完了",
+    "add_placeholder": "タスクを追加...（保存はEnter、オプションはTab）",
+    "quick_options": "クイックオプション",
+    "full_editor": "フルエディター",
+    "due_date": "期限",
+    "priority": "優先度",
+    "tags": "タグ",
+    "filters": "フィルター",
+    "sort": "並び替え",
+    "delete_confirm": "このタスクを削除してもよろしいですか？",
+    "empty": {
+      "title": "まだタスクがありません",
+      "description": "最初のタスクを作成して始めましょう。"
+    },
+    "all_done": "すべてのタスクが完了しました！",
+    "add_new": "新しいタスクを追加して始めましょう。"
+  },
+  "tags": {
+    "title": "タグ",
+    "manage": "タグ管理"
+  },
+  "date": {
+    "today": "今日",
+    "tomorrow": "明日"
+  },
+  "recurrence": {
+    "none": "なし",
+    "daily": "毎日",
+    "weekly": "毎週",
+    "monthly": "毎月",
+    "yearly": "毎年"
+  },
+  "common": {
+    "loading": "読み込み中...",
+    "coming_soon": "近日公開..."
+  },
+  "settings": {
+    "tabs": {
+      "general": "一般",
+      "appearance": "外観",
+      "notifications": "通知",
+      "accessibility": "アクセシビリティ",
+      "security": "セキュリティ",
+      "data": "データ"
+    },
+    "language": {
+      "title": "言語と地域",
+      "description": "優先する言語と地域設定を選択",
+      "select": "言語"
+    },
+    "date_format": {
+      "title": "日付形式"
+    },
+    "time_format": {
+      "title": "時刻形式"
+    },
+    "start_page": {
+      "title": "デフォルトスタートページ"
+    },
+    "working_hours": {
+      "title": "勤務時間",
+      "description": "より良いスケジューリングのため、一般的な勤務時間を設定",
+      "start": "開始時刻",
+      "end": "終了時刻"
+    },
+    "theme": {
+      "title": "テーマ",
+      "description": "優先するカラースキームを選択"
+    },
+    "notifications": {
+      "title": "通知",
+      "description": "通知の受け取り方とタイミングを制御",
+      "enable": "通知を有効にする",
+      "enable_description": "リマインダーとタスクの通知を受け取る",
+      "sounds": "サウンドエフェクト",
+      "sounds_description": "通知とアクションの音を再生"
+    },
+    "accessibility": {
+      "title": "アクセシビリティ",
+      "description": "より良いアクセシビリティのためインターフェースをカスタマイズ",
+      "reduced_motion": "モーション軽減",
+      "reduced_motion_description": "アニメーションとトランジションを最小化",
+      "font_size": "フォントサイズ",
+      "font_size_small": "小",
+      "font_size_medium": "中",
+      "font_size_large": "大",
+      "high_contrast": "ハイコントラスト",
+      "high_contrast_description": "より良い視認性のためコントラストを増加"
+    },
+    "security": {
+      "title": "セキュリティ",
+      "description": "追加のセキュリティ対策でデータを保護",
+      "pin_lock": "PINロック",
+      "pin_lock_description": "アプリケーションアクセスにPINが必要",
+      "pin": "PIN",
+      "pin_placeholder": "PINを入力"
+    },
+    "data": {
+      "title": "データ管理",
+      "description": "データのバックアップ、復元、管理",
+      "auto_backup": "自動バックアップ",
+      "auto_backup_description": "データを自動的にバックアップ",
+      "backup_frequency": "バックアップ頻度",
+      "frequency_daily": "毎日",
+      "frequency_weekly": "毎週",
+      "frequency_monthly": "毎月",
+      "export_title": "データエクスポート",
+      "export_description": "すべてのデータをJSONファイルとしてダウンロード",
+      "export_button": "エクスポート",
+      "import_title": "データインポート",
+      "import_description": "JSONバックアップファイルからデータをインポート",
+      "import_button": "インポート",
+      "select_file": "ファイル選択",
+      "clear_title": "すべてのデータをクリア",
+      "clear_description": "すべてのデータを永続的に削除。この操作は元に戻せません。",
+      "clear_button": "すべてクリア",
+      "clear_confirm": "すべてのデータをクリアしてもよろしいですか？この操作は元に戻せません。"
+    },
+    "export": {
+      "success": {
+        "title": "エクスポート成功",
+        "description": "データが正常にエクスポートされました。"
+      },
+      "error": {
+        "title": "エクスポート失敗",
+        "description": "データのエクスポートに失敗しました。再試行してください。"
+      }
+    },
+    "import": {
+      "success": {
+        "title": "インポート成功",
+        "description": "データが正常にインポートされました。"
+      },
+      "error": {
+        "title": "インポート失敗",
+        "description": "データのインポートに失敗しました。ファイルを確認して再試行してください。"
+      }
+    },
+    "clear": {
+      "success": {
+        "title": "データクリア完了",
+        "description": "すべてのデータが正常にクリアされました。"
+      },
+      "error": {
+        "title": "クリア失敗",
+        "description": "データのクリアに失敗しました。再試行してください。"
+      }
+    }
+  }
+}

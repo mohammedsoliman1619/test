@@ -1,0 +1,231 @@
+{
+  "nav": {
+    "tasks": "कार्य",
+    "calendar": "कैलेंडर",
+    "goals": "लक्ष्य",
+    "reminders": "अनुस्मारक",
+    "analytics": "विश्लेषण",
+    "settings": "सेटिंग्स"
+  },
+  "pages": {
+    "tasks": {
+      "title": "कार्य",
+      "description": "अपने कार्यों और परियोजनाओं का प्रबंधन करें"
+    },
+    "calendar": {
+      "title": "कैलेंडर",
+      "description": "कार्य शेड्यूलिंग और समय ब्लॉकिंग क्षमताओं के साथ इंटरैक्टिव कैलेंडर"
+    },
+    "goals": {
+      "title": "लक्ष्य",
+      "description": "मील के पत्थर और आदत ट्रैकिंग के साथ अपने अल्पकालिक और दीर्घकालिक लक्ष्यों को ट्रैक करें"
+    },
+    "reminders": {
+      "title": "अनुस्मारक",
+      "description": "समय-आधारित अधिसूचनाएं और आवर्ती अनुस्मारक सेट करें"
+    },
+    "analytics": {
+      "title": "विश्लेषण",
+      "description": "चार्ट और अंतर्दृष्टि के साथ अपने उत्पादकता पैटर्न को देखें"
+    },
+    "settings": {
+      "title": "सेटिंग्स",
+      "description": "अपने उत्पादकता अनुभव को अनुकूलित करें"
+    }
+  },
+  "user": {
+    "pro_user": "प्रो उपयोगकर्ता"
+  },
+  "status": {
+    "offline_ready": "ऑफलाइन तैयार"
+  },
+  "theme": {
+    "toggle": "थीम बदलें",
+    "light": "हल्का",
+    "dark": "गहरा",
+    "system": "सिस्टम"
+  },
+  "search": {
+    "placeholder": "कार्य, परियोजनाएं या लक्ष्य खोजें..."
+  },
+  "notifications": {
+    "title": "अधिसूचनाएं"
+  },
+  "actions": {
+    "quick_add": "त्वरित जोड़ें",
+    "add_task": "कार्य जोड़ें",
+    "edit": "संपादित करें",
+    "delete": "हटाएं",
+    "more": "अधिक विकल्प"
+  },
+  "projects": {
+    "title": "परियोजनाएं",
+    "add": "परियोजना जोड़ें",
+    "menu": "परियोजना मेनू",
+    "unknown": "अज्ञात परियोजना"
+  },
+  "views": {
+    "today": "आज",
+    "upcoming": "आगामी",
+    "overdue": "देर से"
+  },
+  "priority": {
+    "high": "उच्च प्राथमिकता",
+    "normal": "सामान्य प्राथमिकता",
+    "low": "कम प्राथमिकता"
+  },
+  "tasks": {
+    "count": "{{count}} कार्य",
+    "completed": "पूर्ण",
+    "completed_today": "आज पूर्ण",
+    "completed_today_count": "{{count}} आज पूर्ण",
+    "completed_at": "{{time}} पूर्ण",
+    "add_placeholder": "कार्य जोड़ें... (सेव करने के लिए Enter, विकल्पों के लिए Tab)",
+    "quick_options": "त्वरित विकल्प",
+    "full_editor": "पूर्ण संपादक",
+    "due_date": "देय तिथि",
+    "priority": "प्राथमिकता",
+    "tags": "टैग",
+    "filters": "फिल्टर",
+    "sort": "क्रम",
+    "delete_confirm": "क्या आप वाकई इस कार्य को हटाना चाहते हैं?",
+    "empty": {
+      "title": "अभी तक कोई कार्य नहीं",
+      "description": "शुरू करने के लिए अपना पहला कार्य बनाएं।"
+    },
+    "all_done": "सभी कार्य पूर्ण!",
+    "add_new": "शुरू करने के लिए नया कार्य जोड़ें।"
+  },
+  "tags": {
+    "title": "टैग",
+    "manage": "टैग प्रबंधित करें"
+  },
+  "date": {
+    "today": "आज",
+    "tomorrow": "कल"
+  },
+  "recurrence": {
+    "none": "कोई नहीं",
+    "daily": "दैनिक",
+    "weekly": "साप्ताहिक",
+    "monthly": "मासिक",
+    "yearly": "वार्षिक"
+  },
+  "common": {
+    "loading": "लोड हो रहा है...",
+    "coming_soon": "जल्द आ रहा है..."
+  },
+  "settings": {
+    "tabs": {
+      "general": "सामान्य",
+      "appearance": "रूप",
+      "notifications": "अधिसूचनाएं",
+      "accessibility": "पहुंच",
+      "security": "सुरक्षा",
+      "data": "डेटा"
+    },
+    "language": {
+      "title": "भाषा और क्षेत्र",
+      "description": "अपनी पसंदीदा भाषा और क्षेत्रीय सेटिंग्स चुनें",
+      "select": "भाषा"
+    },
+    "date_format": {
+      "title": "तिथि प्रारूप"
+    },
+    "time_format": {
+      "title": "समय प्रारूप"
+    },
+    "start_page": {
+      "title": "डिफ़ॉल्ट प्रारंभ पृष्ठ"
+    },
+    "working_hours": {
+      "title": "काम के घंटे",
+      "description": "बेहतर शेड्यूलिंग के लिए अपने सामान्य काम के घंटे निर्धारित करें",
+      "start": "प्रारंभ समय",
+      "end": "समाप्ति समय"
+    },
+    "theme": {
+      "title": "थीम",
+      "description": "अपनी पसंदीदा रंग योजना चुनें"
+    },
+    "notifications": {
+      "title": "अधिसूचनाएं",
+      "description": "नियंत्रित करें कि आप कैसे और कब अधिसूचनाएं प्राप्त करते हैं",
+      "enable": "अधिसूचनाएं सक्षम करें",
+      "enable_description": "अनुस्मारक और कार्यों के लिए अधिसूचनाएं प्राप्त करें",
+      "sounds": "ध्वनि प्रभाव",
+      "sounds_description": "अधिसूचनाओं और क्रियाओं के लिए ध्वनि चलाएं"
+    },
+    "accessibility": {
+      "title": "पहुंच",
+      "description": "बेहतर पहुंच के लिए इंटरफेस को अनुकूलित करें",
+      "reduced_motion": "कम गति",
+      "reduced_motion_description": "एनिमेशन और ट्रांजिशन को कम करें",
+      "font_size": "फॉन्ट आकार",
+      "font_size_small": "छोटा",
+      "font_size_medium": "मध्यम",
+      "font_size_large": "बड़ा",
+      "high_contrast": "उच्च कंट्रास्ट",
+      "high_contrast_description": "बेहतर दृश्यता के लिए कंट्रास्ट बढ़ाएं"
+    },
+    "security": {
+      "title": "सुरक्षा",
+      "description": "अतिरिक्त सुरक्षा उपायों के साथ अपने डेटा की सुरक्षा करें",
+      "pin_lock": "PIN लॉक",
+      "pin_lock_description": "एप्लिकेशन तक पहुंचने के लिए PIN की आवश्यकता",
+      "pin": "PIN",
+      "pin_placeholder": "अपना PIN दर्ज करें"
+    },
+    "data": {
+      "title": "डेटा प्रबंधन",
+      "description": "अपने डेटा का बैकअप, पुनर्स्थापना और प्रबंधन करें",
+      "auto_backup": "स्वचालित बैकअप",
+      "auto_backup_description": "स्वचालित रूप से अपने डेटा का बैकअप लें",
+      "backup_frequency": "बैकअप आवृत्ति",
+      "frequency_daily": "दैनिक",
+      "frequency_weekly": "साप्ताहिक",
+      "frequency_monthly": "मासिक",
+      "export_title": "डेटा निर्यात",
+      "export_description": "अपने सभी डेटा को JSON फाइल के रूप में डाउनलोड करें",
+      "export_button": "निर्यात",
+      "import_title": "डेटा आयात",
+      "import_description": "JSON बैकअप फाइल से डेटा आयात करें",
+      "import_button": "आयात",
+      "select_file": "फाइल चुनें",
+      "clear_title": "सभी डेटा साफ़ करें",
+      "clear_description": "अपने सभी डेटा को स्थायी रूप से हटाएं। यह क्रिया पूर्ववत नहीं हो सकती।",
+      "clear_button": "सभी साफ़ करें",
+      "clear_confirm": "क्या आप वाकई सभी डेटा साफ़ करना चाहते हैं? यह क्रिया पूर्ववत नहीं हो सकती।"
+    },
+    "export": {
+      "success": {
+        "title": "निर्यात सफल",
+        "description": "आपका डेटा सफलतापूर्वक निर्यात हो गया है।"
+      },
+      "error": {
+        "title": "निर्यात असफल",
+        "description": "डेटा निर्यात करने में असफल। कृपया फिर से प्रयास करें।"
+      }
+    },
+    "import": {
+      "success": {
+        "title": "आयात सफल",
+        "description": "आपका डेटा सफलतापूर्वक आयात हो गया है।"
+      },
+      "error": {
+        "title": "आयात असफल",
+        "description": "डेटा आयात करने में असफल। कृपया फाइल की जांच करें और फिर से प्रयास करें।"
+      }
+    },
+    "clear": {
+      "success": {
+        "title": "डेटा साफ़ किया गया",
+        "description": "सभी डेटा सफलतापूर्वक साफ़ कर दिया गया है।"
+      },
+      "error": {
+        "title": "साफ़ करना असफल",
+        "description": "डेटा साफ़ करने में असफल। कृपया फिर से प्रयास करें।"
+      }
+    }
+  }
+}

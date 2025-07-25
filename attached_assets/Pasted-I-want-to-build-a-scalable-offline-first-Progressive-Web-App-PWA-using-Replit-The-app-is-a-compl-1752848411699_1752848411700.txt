@@ -1,0 +1,177 @@
+I want to build a scalable, offline-first Progressive Web App (PWA) using Replit. The app is a complete, professional-grade personal productivity platform, structured into distinct modules, fully localized, and designed to scale to millions of users — while storing all data locally, without any backend, login, or cloud dependency. This is for serious, long-term use — no dummy logic, placeholders, or mockups. I want FAANG-level, enterprise-grade, production-ready code with real logic, real components, and a fully modular architecture.
+
+🧱 Architecture & Tech Stack
+React (with TypeScript) + Vite
+
+Tailwind CSS for styling
+
+React Router for routing
+
+IndexedDB via Dexie.js (or idb) for structured local storage
+
+Vite PWA plugin for offline support and service workers
+
+Zustand or Jotai (or clean Context API) for app-wide state management
+
+lucide-react or Tabler Icons for modern UI icons
+
+fullcalendar, dnd-kit, chart.js/recharts where needed
+
+i18next or react-intl for full localization support
+
+🖥️ Core UX Requirements
+Fully responsive design: desktop, tablet, mobile
+
+Clean, professional interface with consistent layout, spacing, animation
+
+Light/Dark mode toggle
+
+Zero third-party auth or cloud dependency
+
+Real-time live state updates between all components
+
+Accessibility (a11y) best practices built-in
+
+All features must work 100% offline
+
+Code must be modular, reusable, composable, scalable, and error-free
+
+🧭 App Sections
+📋 1. Tasks (To-Do Manager)
+Fully replicates Todoist’s offline features:
+
+Projects with sections, subtasks, priorities (P1–P4)
+
+Start and due dates with natural language input parsing
+
+Recurring tasks (e.g., “every Monday at 9am”)
+
+Labels, tags, filters, drag-and-drop, keyboard shortcuts
+
+Smart views: Today, Upcoming, Overdue
+
+Inbox project for quick capture
+
+Full-text search and custom filtering
+
+Reordering, auto-focus, undo/redo
+
+New tasks reflect in Calendar/Analytics immediately
+
+📅 2. Calendar
+Interactive calendar auto-syncs with tasks & reminders:
+
+Day, week, and month views (drag-and-drop rescheduling)
+
+Tasks and reminders appear instantly on relevant dates
+
+Time-blocking and agenda mode
+
+Fully reactive calendar logic
+
+🎯 3. Goals
+Track short- and long-term goals:
+
+Milestone checklists, recurring habits, streaks
+
+Category-based organization (health, career, learning, etc.)
+
+Progress bar with completion percentage
+
+Real-time updates in Analytics section
+
+⏰ 4. Reminders
+Offline-capable time-based notifications:
+
+One-time and recurring reminders
+
+Local push notifications (when supported)
+
+Snooze, reschedule, or complete directly
+
+Auto-linked with tasks/goals when relevant
+
+📊 5. Analytics
+Visualize productivity patterns:
+
+Task completion heatmaps and graphs
+
+Productivity streaks, tag usage, time-tracking
+
+Charts for completed tasks per day/week/project
+
+Real-time updates when user adds/edits tasks or goals
+
+⚙️ 6. Settings
+Personalization & configuration (stored locally):
+
+Light/dark mode toggle
+
+Language selector (see below)
+
+Date/time format
+
+Default start page (Tasks, Calendar, etc.)
+
+Enable/disable notifications
+
+Backup/export/import data as JSON
+
+Local storage manager (clear, reset)
+
+Optional local PIN lock
+
+Accessibility preferences (reduced motion, font size)
+
+🌍 Localization
+The app must fully support localization (i18n) using i18next or react-intl, with no hardcoded strings. All user-visible text should be translatable. The app must support the top 10 most common languages found in major global apps:
+
+English (default)
+
+Spanish
+
+Mandarin Chinese
+
+Arabic
+
+French
+
+Hindi
+
+Russian
+
+Portuguese (Brazil)
+
+German
+
+Japanese
+
+Each language should be toggleable in Settings
+
+Direction-aware layout (LTR/RTL switching for Arabic/Hebrew)
+
+Date/time formatting must adapt to locale
+
+🔁 Live Behavior & Real-Time Updates
+Adding a task instantly updates Calendar, Reminders, and Analytics
+
+Creating a tag or label updates the tag list globally in real-time
+
+Completing a goal updates analytics immediately
+
+No refresh or re-sync required — fully reactive UI with shared local state
+
+🧪 Code Requirements
+100% real logic, no dummy data, placeholders, or mockups
+
+FAANG-level structure: maintainable, modular, typed, fully tested
+
+Follow SOLID, DRY, and KISS principles
+
+All components reusable and scalable
+
+Type-safe models and interfaces
+
+Error boundaries, loading states, and user feedback
+
+Production-ready: no console logs, no commented-out code, no hardcoding
